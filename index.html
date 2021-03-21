@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+  <html>
+  <head>
+  <title>张文涛的个人主页</title>
+  <meta name="description" content="你的笑,是大海拥抱海岛的笑,是星星跳跃浪花的笑,是椰树遮掩椰果的笑。你笑着,使黑夜奔逃。"/>
+  <meta name="keywords" content="张文涛的个人主页"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="main.css" />
+  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  <noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+  </head>
+  <body>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+  <!-- Header -->
+  <header id="header">
+  <div class="logo">
+  <img src="http://shp.qpic.cn/collector/1523339047/0a73914f-45d4-4c27-a05b-6e7e518fa7df/0" class="logo">
+  </div>
+  <div class="content">
+  <div class="inner">
+  <h1>张文涛的个人主页</h1>
+  <p>你的笑,是大海拥抱海岛的笑,是星星跳跃浪花的笑,是椰树遮掩椰果的笑。你笑着,使黑夜奔逃。</p>
+  </div>
+  </div>
+  <nav>
+  <ul>
+  <li><a href="https://github.com/140202200804280011">我的介绍</a></li>
+  <li><a href="mailto://zwtdwryx@hotmail.com">导航系统</a></li>
+  </ul>
+  </nav>
+  </header>
+
+  <!-- Main -->
+  <div id="main">
+
+  </article>
+  <!--底部-->
+  </div>
+  <footer id="footer">
+  <p class="copyright ">Copyright 2019 张文涛. AllRightsReserved.</p>
+  <span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
+  <script type="text/javascript">
+  function NewDate(str) {
+      str = str.split('-');
+      var date = new Date();
+      date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+      date.setUTCHours(0, 0, 0, 0);
+      return date;
+    }
+    function momxc() {
+        var birthDay =NewDate("2019-10-17");
+        var today=new Date();
+        var timeold=today.getTime()-birthDay.getTime();
+        var sectimeold=timeold/1000
+        var secondsold=Math.floor(sectimeold);
+        var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
+        var daysold=Math.floor(e_daysold);
+        var e_hrsold=(daysold-e_daysold)*-24;
+        var hrsold=Math.floor(e_hrsold);
+        var e_minsold=(hrsold-e_hrsold)*-60;
+        var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
+        document.getElementById("momk").innerHTML = "本站已安全运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+        setTimeout(momxc, 1000);
+      }momxc();
+      </script>
+      </footer>
+      </div>
+
+      <!-- BG -->
+      <div id="bg"></div>
+      <div id="cc-myssl-id" style="position: fixed;right: 0;bottom: 0;width: 65px;height: 65px;z-index: 99;"><a href="https://myssl.com/140202200804280011.github.io?from=mysslid" target="_blank" rel="nofollow noopener noreferrer"><img src="https://static.myssl.com/res/images/myssl-id.png" target="_blank" rel="nofollow noopener noreferrer" alt="创客云" style="width:100%;height:100%"></a></div>
+      <!-- Scripts -->
+      <script src="jquery.min.js"></script>
+      <script src="skel.min.js"></script>
+      <script src="util.js"></script>
+      <script src="main.js"></script>
+
+      </body>
+      </html>
