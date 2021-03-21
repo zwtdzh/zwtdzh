@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
-/*
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2178,7 +2173,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			background-image: url("overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -2706,7 +2701,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("top-3200.svg"), url("overlay.png"), url("header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2797,7 +2792,7 @@ input, select, textarea {
 	#footer {
 		background-attachment: scroll;
 		background-color: #4eb980;
-		background-image: url("images/bottom-3200.svg");
+		background-image: url("bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
 		background-size: 3200px 460px;
@@ -3022,7 +3017,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("top-1600.svg"), url("overlay.png"), url("header.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -3046,7 +3041,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-image: url("images/bottom-1600.svg");
+				background-image: url("bottom-1600.svg");
 				background-size: 1600px 230px;
 				margin-top: -100px;
 				padding: calc(230px + 4em) 0 6em 0;
@@ -3174,7 +3169,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("top-1280.svg"), url("overlay.png"), url("header.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
@@ -3202,7 +3197,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				background-image: url("images/bottom-1280.svg");
+				background-image: url("bottom-1280.svg");
 				background-size: 1280px 184px;
 				margin-top: -75px;
 				padding: calc(184px + 2em) 0 2em 0;
